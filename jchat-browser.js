@@ -218,7 +218,9 @@ jchat = (function() {
         body.style.bottom = '4em';
         body.style['background-color'] = "white";
         body.style['box-sizing'] = 'border-box';
-        body.style.border = '0.2em solid #1f79b2';
+        body.style['border-top'] = '0.2em solid #1f79b2';
+        body.style['border-right'] = '0.2em solid #1f79b2';
+        body.style['border-left'] = '0.2em solid #1f79b2';
         body.style.overflow = 'auto';
         container.appendChild(body);
         container.childs.body = body;
