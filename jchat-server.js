@@ -1,6 +1,5 @@
 var io = require('socket.io')(8282);
 
-
 io.on('connect', function(socket){
     socket.on('chat:login', function(data){
         console.log(data);
